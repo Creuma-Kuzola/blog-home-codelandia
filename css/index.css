@@ -10,6 +10,11 @@
     src: url('/fonts/LexendDeca-Regular.ttf');
 }
 
+body{
+    background-color: #F3F5F7;
+    overflow-x: hidden;
+}
+
 .section-header{
 
     width: 100vw;
@@ -27,6 +32,7 @@
     color: #fff;
     padding-top:5vh;
     place-items: center;
+    font-size: 1.7rem;
 }
 
 .transparent-input-type-search{
@@ -53,4 +59,58 @@
     left: 28vw;
     top: 19.5vh;
     opacity: 0.3;
+    font-size: 1.5rem;
+}
+
+.main-section{
+
+    display: grid;
+    grid-template-rows: 4;
+    place-items: center;
+    gap: 4vh 0;
+    margin-top: 10vh;
+}
+
+.section-main-section{
+
+    width: 50vw;
+    height: 30vh;
+    background-color: #fff;
+    border-radius: 0.1vw;
+    padding: 1.7vw;
+
+}
+
+.main-div-section{
+
+    display: grid;
+    grid-template-columns: 2;
+    justify-content: space-between;
+    grid-auto-flow: column;
+}
+
+.main-div-section-title{
+    color: #b6b6b6;
+    font-size: 1.1rem;
+}
+
+.section-main-section-title{
+    font-size: 1.6rem;
+    padding-top: 1.5vh;
+    color: #313131;
+}
+
+.section-main-section-description{
+    font-size: 1.2rem;
+    color: #b6b6b6;
+    padding-top: 1vh;
+    line-height: 3.5vh;
+}
+
+.section-1{
+    height: 23vh;
+}
+
+.section-3{
+    height: 19vh;
 }
