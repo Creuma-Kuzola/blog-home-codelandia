@@ -50,14 +50,15 @@ body{
 }
 
 .search-icon{
-    transform: translate(24vw,11vh);
+    transform: translate(23.5vw,11vh);
+    width: 1.5vw;
 }
 
 .text-input{
     color: #fff;
     position: absolute;
-    left: 28vw;
-    top: 19.5vh;
+    left: 26vw;
+    top: 19.7vh;
     opacity: 0.3;
     font-size: 1.5rem;
 }
@@ -89,6 +90,7 @@ body{
     grid-auto-flow: column;
 }
 
+
 .main-div-section-title{
     color: #b6b6b6;
     font-size: 1.1rem;
@@ -108,14 +110,21 @@ body{
 }
 
 .section-1{
-    height: 23vh;
+    height: 22vh;
+}
+
+.section-2{
+    height: 26vh;
 }
 
 .section-3{
     height: 19vh;
 }
 
+.section-4{
 
+    height: 24vh;
+}
 
 @media screen and (max-width: 768px){
 
