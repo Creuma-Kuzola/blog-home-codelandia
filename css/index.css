@@ -115,6 +115,110 @@ body{
     height: 19vh;
 }
 
+
+
+@media screen and (max-width: 768px){
+
+
+.section-text{
+
+    display: grid;
+    grid-template-columns: 2;
+    grid-auto-flow: column;
+    width: 99vw;
+    color: #fff;
+    padding-top:5vh;
+    place-items: center;
+    font-size: 1.7rem;
+}
+
+.transparent-input-type-search{
+
+    width: 60vw;
+    height: 5vh;
+    position: absolute;
+    left:-1vw;
+}
+
+.search-icon{
+    transform: translate(22vw,10.5vh);
+    width: 2.5vw;
+}
+
+.text-input{
+    color: #fff;
+    position: absolute;
+    left: 26vw;
+    top: 18vh;
+}
+
+.main-section{
+
+    display: grid;
+    grid-template-rows: 4;
+    place-items: center;
+    gap: 4vh 0;
+    margin-top: 10vh;
+}
+
+.section-main-section{
+
+    width: 60vw;
+}
+
+.main-div-section{
+
+    display: grid;
+    grid-template-columns: 2;
+    justify-content: space-between;
+    grid-auto-flow: column;
+}
+
+
+.heart-icon{
+
+    width: 2vw;
+
+}
+
+.main-div-section-title{
+    color: #b6b6b6;
+    font-size: 1rem;
+}
+
+.section-main-section-title{
+    font-size: 1.5em;
+    padding-top: 1.7vh;
+    color: #313131;
+}
+
+.section-main-section-description{
+    font-size: 1rem;
+    color: #b6b6b6;
+    padding-top: 0.7vh;
+    line-height: 2.3vh;
+}
+
+.section-1{
+    height: 14vh;
+}
+
+.section-2{
+    height: 19vh;
+}
+
+.section-3{
+    height: 12vh;
+}
+
+.section-4{
+
+    height: 19vh;
+}
+
+
+}    
+
 @media screen and (max-width: 375px){
 
     .section-text{
