@@ -1,2 +1,2 @@
 # blog-home-codelandia
-Página home de um blog
+Página home do blog da Codelândia
