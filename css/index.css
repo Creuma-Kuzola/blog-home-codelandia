@@ -241,17 +241,17 @@ body{
 
 
 .search-icon{
-    transform: translate(6vw,10.5vh);
+    transform: translate(8vw,10.5vh);
     width: 3vw;
 }
 
 .text-input{
     color: #fff;
     position: absolute;
-    left: 12vw;
-    top: 20.5vh;
+    left: 13vw;
+    top: 20.2vh;
     opacity: 0.3;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .main-section{
