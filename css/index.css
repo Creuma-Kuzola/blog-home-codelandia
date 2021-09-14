@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: LexendDexa;
+}
+
+@font-face {
+    font-family: LexendDexa;
+    src: url('/fonts/LexendDeca-Regular.ttf');
+}
+
+.section-header{
+
+    width: 100vw;
+    height: 29.5vh;
+    background-image: linear-gradient(to right,#574AE8, #3EA1DB);
+
+}
+
+.section-text{
+
+    display: grid;
+    grid-template-columns: 2;
+    grid-auto-flow: column;
+    width: 99vw;
+    color: #fff;
+    padding-top:5vh;
+    place-items: center;
+}
+
+.transparent-input-type-search{
+
+    width: 55vw;
+    height: 8vh;
+    opacity: 0.2;
+    margin-top: 9vh;
+    display: grid;
+    position: absolute;
+    left:13vw;
+    transform: translate(20vh);
+    border: none;
+    border-radius:0.2vw;
+}
+
+.search-icon{
+    transform: translate(24vw,11vh);
+}
+
+.text-input{
+    color: #fff;
+    position: absolute;
+    left: 28vw;
+    top: 19.5vh;
+    opacity: 0.3;
+}
