@@ -114,3 +114,81 @@ body{
 .section-3{
     height: 19vh;
 }
+
+@media screen and (max-width: 375px){
+
+    .section-text{
+
+        display: grid;
+        justify-content: space-between;
+        font-size: 1.5rem;
+        padding: 5vw;
+    }
+    
+
+    .transparent-input-type-search{
+        width: 88vw;
+        height: 4.5vh;
+        position: absolute;
+        left: -38vw;
+    }
+
+
+.search-icon{
+    transform: translate(8vw,10.5vh);
+    width: 4vw;
+}
+
+.text-input{
+    color: #fff;
+    position: absolute;
+    left: 16vw;
+    top: 17vh;
+    opacity: 0.3;
+    font-size: 1.3rem;
+}
+
+.main-section{
+
+    display: grid;
+    grid-template-rows: 4;
+    place-items: center;
+    gap: 4vh 0;
+    margin-top: 10vh;
+}
+
+.section-main-section{
+
+    width: 88vw;
+    height: 30vh;
+    background-color: #fff;
+    border-radius: 0.1vw;
+    padding: 4vw;
+
+}
+
+.main-div-section-title{
+    color: #b6b6b6;
+    font-size: 0.9rem;
+}
+
+.heart-icon{
+
+    width: 4vw;
+
+}
+.section-main-section-title{
+    font-size: 1.4rem;
+    padding-top: 1.5vh;
+    color: #313131;
+}
+
+.section-main-section-description{
+    font-size: 1rem;
+    color: #b6b6b6;
+    padding-top: 1vh;
+    line-height: 2.5vh;
+}
+
+ 
+}    
