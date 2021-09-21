@@ -129,6 +129,7 @@ body{
     color: #b6b6b6;
     padding-top: 1vh;
     line-height: 3.5vh;
+    text-align: justify;
 }
 
 .section-1{
@@ -153,11 +154,41 @@ body{
 @media screen and (max-width: 1024px) {
     
     .heart-icon{
-        width: 3vw;
+        width: 2vw;
     }
 
+    .section-2{
+        height: 27vh;
+    }
 }
 
+
+@media screen and (max-width: 900px) {
+
+    .section-2{
+        height: 29vh;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .section-1{
+        height: 22vh;
+    }
+
+    .section-2{
+        height: 33vh;
+    }
+
+    .section-3{
+        height: 22vh;
+    }
+
+    .section-4{
+        height: 31vh;
+    }
+}
 
 @media screen and (max-width: 750px) {
    
@@ -185,12 +216,7 @@ body{
         font-size: 1.3rem;
         
     }
-
-    .section-main-section{
-
-        width: 58vw;
-    }
-
+    
     .heart-icon{
         width: 2.5vw;
     }
